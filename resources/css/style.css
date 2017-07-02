@@ -1,0 +1,31 @@
+*{
+  border: 5px solid green;
+}
+
+html{
+  font-size: 18px;
+}
+
+header{
+  background-color: black;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header .container{
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+header .container span{
+  padding: 0.66rem 1rem;
+}
+
+#logo{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
