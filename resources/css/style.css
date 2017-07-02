@@ -1,19 +1,15 @@
-*{
-  border: 5px solid green;
-}
-
 html{
   font-family: helvetica;
   font-size: 18px;
   color: white;
 }
 
-/* -----------------------Header--------------------------- */
-
 .container{
   max-width: 960px;
   margin: 0 auto;
 }
+
+/* -----------------------Header--------------------------- */
 
 header{
   background-color: black;
@@ -78,5 +74,59 @@ nav ul{
   max-width: 960px;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 0.75rem auto;
+  padding: 0.75rem 0;
+}
+
+/* ------------------Product Grid------------------------ */
+
+.ProductContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.product{
+  width: 30%;
+}
+
+.image{
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img{
+  max-width: 10rem;
+}
+
+.product span{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+/* --------------------Location and Hours----------------- */
+
+.Location-Hours{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.info{
+  width: 35%;
+}
+
+.info span{
+  display: flex;
+  padding: 1rem 0rem 1rem 2rem;
+  background-color: black;
+}
+
+.info p{
+  color: black;
 }
