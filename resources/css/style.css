@@ -172,3 +172,51 @@ footer{
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px){
+  .MainBanner{
+    height: 15rem;
+  }
+
+  .MainBanner .container{
+    padding-top: 10rem;
+  }
+
+  .NewArrival{
+    padding: 1rem 2rem;
+  }
+
+  .NewArrival p{
+    font-size: 0.77rem;
+  }
+
+  .NewArrival h1{
+    font-size: 1rem;
+  }
+
+  #watch{
+    display: none;
+  }
+
+  .ProductContainer{
+    justify-content: center;
+  }
+
+  .product{
+    width: 90%;
+  }
+
+  .info{
+    width: 90%;
+    padding-bottom: 0.5rem;
+  }
+
+  .Location-Hours{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .copywrite span{
+    justify-content: center;
+  }
+}
