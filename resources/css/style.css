@@ -6,13 +6,15 @@ html{
   font-size: 18px;
 }
 
-header{
-  background-color: black;
-}
+/* -----------------------Header--------------------------- */
 
 .container{
   max-width: 960px;
   margin: 0 auto;
+}
+
+header{
+  background-color: black;
 }
 
 header .container{
@@ -23,9 +25,42 @@ header .container{
 
 header .container span{
   padding: 0.66rem 1rem;
+  font: 1rem Helvetica;
 }
 
 #logo{
   height: 1.5rem;
   padding-left: 0.5rem;
+}
+
+/* -------------------------Banner---------------------------- */
+
+.MainBanner{
+  background-image: url("../photos/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
+
+.MainBanner .container{
+  padding-top: 9rem;
+}
+
+.NewArrival{
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.NewArrival p{
+  font-size: 1rem;
+}
+
+.NewArrival h1{
+  font-size: 2rem;
+  padding-top: 0.25rem;
 }
