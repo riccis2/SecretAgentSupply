@@ -3,7 +3,9 @@
 }
 
 html{
+  font-family: helvetica;
   font-size: 18px;
+  color: white;
 }
 
 /* -----------------------Header--------------------------- */
@@ -52,7 +54,6 @@ header .container span{
   color: white;
   width: 20rem;
   padding: 2rem 3rem;
-  font-family: helvetica;
   font-weight: bold;
 }
 
@@ -63,4 +64,19 @@ header .container span{
 .NewArrival h1{
   font-size: 2rem;
   padding-top: 0.25rem;
+}
+
+/* ---------------------Navigation---------------------- */
+
+nav{
+  background-color: firebrick;
+  width: auto;
+}
+
+nav ul{
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0.75rem auto;
 }
