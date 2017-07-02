@@ -78,6 +78,10 @@ nav ul{
   padding: 0.75rem 0;
 }
 
+.max1024{
+  display: none;
+}
+
 /* ------------------Product Grid------------------------ */
 
 .ProductContainer{
@@ -143,4 +147,28 @@ footer{
   height: 5rem;
   align-items: center;
   width: auto;
+}
+
+/* ----------------------Media Queries---------------------- */
+
+@media only screen and (max-width: 1024px) {
+  nav ul{
+    display: none;
+  }
+
+  nav .max1024{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 0.75rem 0;
+  }
+
+  .product{
+    width: 47%;
+  }
+
+  #glasses{
+    display: none;
+  }
 }
